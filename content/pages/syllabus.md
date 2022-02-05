@@ -121,18 +121,111 @@ The final grade will be primarily based on problem sets, one in-class quiz (**Q1
 
 Although the problem sets account for only 80 points in your final grade, you must do them. The following table shows the impact of failing to do problems:
 
-| PROBLEMS SKIPPED | IMPACT |
-| --- | --- |
-| 0 | None |
-| 1 | One-hundredth of a Letter Grade |
-| 2 | One-tenth of a Letter Grade |
-| 3 | One-fifth of a Letter Grade |
-| 4 | One-fourth of a Letter Grade |
-| 5 | One-third of a Letter Grade |
-| 6 | One-half of a Letter Grade |
-| 7 | One Letter Grade |
-| 8 | Two Letter Grades |
-| 9 or more | Fail 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEMS SKIPPED
+{{< thclose >}}
+{{< thopen >}}
+IMPACT
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+None
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+One-hundredth of a Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+One-tenth of a Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+One-fifth of a Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+One-fourth of a Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+One-third of a Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+One-half of a Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+One Letter Grade
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Two Letter Grades
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9 or more
+{{< tdclose >}}
+{{< tdopen >}}
+Fail
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Please observe that this table is for **problems** skipped, not **problem sets**. The specifics of this grading policy are subject to change if the need arises.
 

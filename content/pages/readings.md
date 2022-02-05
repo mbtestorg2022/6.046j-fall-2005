@@ -10,47 +10,514 @@ The table below provides information on the course's reading assignments, which 
 
 In addition to the assigned course readings, see the list of [useful references](#useful_references) for the course below.
 
-| SES # | TOPICS | READINGS |
-| --- | --- | --- |
-| L1 | Administrivia  {{< br >}}  {{< br >}}Introduction  {{< br >}}  {{< br >}}Analysis of Algorithms, Insertion Sort, Mergesort | Chapters 1-2 |
-| R1 | Correctness of Algorithms  {{< br >}}  {{< br >}}Horner's rule | &nbsp; |
-| L2 | Asymptotic Notation  {{< br >}}  {{< br >}}Recurrences  {{< br >}}  {{< br >}}Substitution, Master Method | Chapters 3-4, excluding section 4.6 |
-| L3 | Divide-and-Conquer: Strassen, Fibonacci, Polynomial Multiplication | Sections 4.2 and 30.1 |
-| R2 | Recurrences, Sloppiness | &nbsp; |
-| L4 | Quicksort, Randomized Algorithms | Sections 5.1-5.3  {{< br >}}  {{< br >}}Chapter 7 |
-| R3 | Heapsort, Dynamic Sets, Priority Queues | Chapter 6 |
-| L5 | Linear-time Sorting: Lower Bounds, Counting Sort, Radix Sort | Sections 8.1-8.3 |
-| L6 | Order Statistics, Median | Chapter 9 |
-| R4 | Applications of Median  {{< br >}}  {{< br >}}Bucketsort | Section 8.4 |
-| L7 | Hashing, Hash Functions | Sections 11.1-11.3 |
-| L8 | Universal Hashing, Perfect Hashing | Section 11.5 |
-| R5 | Quiz 1 Review | &nbsp; |
-| Q1 | Quiz 1, In-class | &nbsp; |
-| R6 | Binary Search Trees, Tree Walks | Sections 12.1-12.3 |
-| L9 | Relation of BSTs to Quicksort  {{< br >}}  {{< br >}}Analysis of Random BST | Section 12.4 |
-| L10 | Red-black Trees, Rotations, Insertions, Deletions | Chapter 13 |
-| R7 | 2-3 Trees, B-trees | &nbsp; |
-| L11 | Augmenting Data Structures, Dynamic Order Statistics, Interval Trees | Chapter 14 |
-| L12 | Skip Lists | Skip Lists handout ([PDF]({{< baseurl >}}/resources/l12_skiplists)) |
-| R8 | Range Trees | &nbsp; |
-| L13 | Amortized Algorithms, Table Doubling, Potential Method | Chapter 17 |
-| L14 | Competitive Analysis: Self-organizing Lists | Sleator, Daniel D., and Robert E. Tarjan. "Amortized efficiency of list update and paging rules." _Communications of the ACM_ 28, no. 2 (February 1985): 202-208. |
-| R9 | Competitive Analysis: Ski Rental, Randomized Competitive Algorithm | &nbsp; |
-| L15 | Dynamic Programming, Longest Common Subsequence | Chapter 15 |
-| L16 | Greedy Algorithms, Minimum Spanning Trees | Sections 16.1-16.3 and 22.1  {{< br >}}  {{< br >}}Chapter 23 |
-| L17 | Shortest Paths I: Properties, Dijkstra's Algorithm, Breadth-first Search | Section 22.2  {{< br >}}  {{< br >}}Chapter 24 |
-| L18 | Shortest Paths II: Bellman-Ford, Linear Programming, Difference Constraints | &nbsp; |
-| R10 | Graph Searching: Depth-first Search, Topological Sort, DAG Shortest Paths | Sections 22.3-22.4 |
-| L19 | Shortest Paths III: All-pairs Shortest Paths, Matrix Multiplication, Floyd-Warshall, Johnson | Chapter 25 |
-| L20 | Quiz 2 Review | &nbsp; |
-| L21 | Ethics, Problem Solving (Mandatory Attendance) | &nbsp; |
-| Q2 | Quiz 2, In-class | &nbsp; |
-| L22 | Advanced Topics | Dynamic Multithreaded Algorithms handout ([PDF]({{< baseurl >}}/resources/dyn_multi_alg)) |
-| L23 | Advanced Topics (cont.) | &nbsp; |
-| R11 | Advanced Topics | &nbsp; |
-| L24 | Advanced Topics (cont.) | Demaine, Erik D. "Cache-Oblivious Algorithms and Data Structures." To appear in _Lecture Notes from the EEF Summer School on Massive Data Sets_, a volume of _Lecture Notes in Computer Science_. Berlin, Germany: Springer-Verlag. |
-| L25 | Advanced Topics (cont.)  {{< br >}}  {{< br >}}Discussion of Follow-on Classes | &nbsp; |
-| &nbsp; | Final Exam |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Administrivia  
+  
+Introduction  
+  
+Analysis of Algorithms, Insertion Sort, Mergesort
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 1-2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+Correctness of Algorithms  
+  
+Horner's rule
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Asymptotic Notation  
+  
+Recurrences  
+  
+Substitution, Master Method
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 3-4, excluding section 4.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Divide-and-Conquer: Strassen, Fibonacci, Polynomial Multiplication
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 4.2 and 30.1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2
+{{< tdclose >}}
+{{< tdopen >}}
+Recurrences, Sloppiness
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Quicksort, Randomized Algorithms
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.1-5.3  
+  
+Chapter 7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R3
+{{< tdclose >}}
+{{< tdopen >}}
+Heapsort, Dynamic Sets, Priority Queues
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+Linear-time Sorting: Lower Bounds, Counting Sort, Radix Sort
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 8.1-8.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Order Statistics, Median
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Applications of Median  
+  
+Bucketsort
+{{< tdclose >}}
+{{< tdopen >}}
+Section 8.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Hashing, Hash Functions
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 11.1-11.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+Universal Hashing, Perfect Hashing
+{{< tdclose >}}
+{{< tdopen >}}
+Section 11.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 Review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Q1
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1, In-class
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+Binary Search Trees, Tree Walks
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 12.1-12.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Relation of BSTs to Quicksort  
+  
+Analysis of Random BST
+{{< tdclose >}}
+{{< tdopen >}}
+Section 12.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Red-black Trees, Rotations, Insertions, Deletions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 13
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R7
+{{< tdclose >}}
+{{< tdopen >}}
+2-3 Trees, B-trees
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Augmenting Data Structures, Dynamic Order Statistics, Interval Trees
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 14
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+Skip Lists
+{{< tdclose >}}
+{{< tdopen >}}
+Skip Lists handout ([PDF]({{< baseurl >}}/resources/l12_skiplists))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R8
+{{< tdclose >}}
+{{< tdopen >}}
+Range Trees
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+Amortized Algorithms, Table Doubling, Potential Method
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 17
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Competitive Analysis: Self-organizing Lists
+{{< tdclose >}}
+{{< tdopen >}}
+Sleator, Daniel D., and Robert E. Tarjan. "Amortized efficiency of list update and paging rules." _Communications of the ACM_ 28, no. 2 (February 1985): 202-208.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R9
+{{< tdclose >}}
+{{< tdopen >}}
+Competitive Analysis: Ski Rental, Randomized Competitive Algorithm
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamic Programming, Longest Common Subsequence
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+Greedy Algorithms, Minimum Spanning Trees
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 16.1-16.3 and 22.1  
+  
+Chapter 23
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+Shortest Paths I: Properties, Dijkstra's Algorithm, Breadth-first Search
+{{< tdclose >}}
+{{< tdopen >}}
+Section 22.2  
+  
+Chapter 24
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Shortest Paths II: Bellman-Ford, Linear Programming, Difference Constraints
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R10
+{{< tdclose >}}
+{{< tdopen >}}
+Graph Searching: Depth-first Search, Topological Sort, DAG Shortest Paths
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 22.3-22.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Shortest Paths III: All-pairs Shortest Paths, Matrix Multiplication, Floyd-Warshall, Johnson
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 25
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 Review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Ethics, Problem Solving (Mandatory Attendance)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Q2
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2, In-class
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+Advanced Topics
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamic Multithreaded Algorithms handout ([PDF]({{< baseurl >}}/resources/dyn_multi_alg))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+Advanced Topics (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R11
+{{< tdclose >}}
+{{< tdopen >}}
+Advanced Topics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Advanced Topics (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Demaine, Erik D. "Cache-Oblivious Algorithms and Data Structures." To appear in _Lecture Notes from the EEF Summer School on Massive Data Sets_, a volume of _Lecture Notes in Computer Science_. Berlin, Germany: Springer-Verlag.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Advanced Topics (cont.)  
+  
+Discussion of Follow-on Classes
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Final Exam
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "useful_references" >}}{{< /anchor >}}Useful References
 ------------------------------------------------------------------
