@@ -24,7 +24,7 @@ SOLUTIONS
 Practice Quiz 1 ([PDF]({{< baseurl >}}/resources/practice_quiz1))
 {{< tdclose >}}
 {{< tdopen >}}
-(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/prac_quiz1sol))
+([PDF]({{< baseurl >}}/resources/prac_quiz1sol))
 {{< tdclose >}}
 
 {{< trclose >}}
