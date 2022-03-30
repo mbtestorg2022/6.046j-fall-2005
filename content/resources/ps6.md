@@ -4,6 +4,7 @@ description: This resource contains problem sets on electronic billboard and cos
   of restructuring red-black trees
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/9f428ed07132962154884542162a29e5_ps6.pdf
 file_type: application/pdf
+parent_uid: efc69ef8-6c18-e164-d675-bd8808c6477a
 resourcetype: Document
 title: ps6.pdf
 uid: 9f428ed0-7132-9621-5488-4542162a29e5

@@ -4,6 +4,7 @@ description: This resource contains three problem sets on asymptotic notation, r
   and unimodal search.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/21bf373b58dcd53a7650a8072a76a448_ps1.pdf
 file_type: application/pdf
+parent_uid: efc69ef8-6c18-e164-d675-bd8808c6477a
 resourcetype: Document
 title: ps1.pdf
 uid: 21bf373b-58dc-d53a-7650-a8072a76a448

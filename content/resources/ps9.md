@@ -3,6 +3,7 @@ content_type: resource
 description: This resource contains a problem set on parallel merge sort.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/87b244e363192122fbd8892b4dea4a8f_ps9.pdf
 file_type: application/pdf
+parent_uid: efc69ef8-6c18-e164-d675-bd8808c6477a
 resourcetype: Document
 title: ps9.pdf
 uid: 87b244e3-6319-2122-fbd8-892b4dea4a8f
